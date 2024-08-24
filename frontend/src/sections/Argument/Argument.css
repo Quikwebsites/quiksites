@@ -1,0 +1,9 @@
+.argument-section {
+    background-image: url('../../assets/images/ArgumentBackground.png');
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    padding:5px;
+}

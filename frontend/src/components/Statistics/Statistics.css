@@ -1,0 +1,41 @@
+.statistics{
+    display:flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: space-evenly;
+    height:1800px;
+}
+.graph1 {
+    height:25%;
+    min-height:200px;
+    width:100%;
+}
+.graph2 {
+    height:25%;
+    min-height:300px;
+    width:70%;
+    min-width:200px;
+}
+.graph3 {
+    height:20%;
+    min-height:300px;
+    width:70%;
+    min-width:200px;
+}
+.graph4 {
+    height:10%;
+    min-height:200px;
+    width:50%;
+    min-width:200px;
+}
+.graph5 {
+    height:10%;
+    min-height:200px;
+    width:50%;
+    min-width:200px;
+}
+.graph6 {
+    height:10%;
+    min-height:200px;
+    width:100%;
+}

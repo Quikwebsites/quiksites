@@ -1,0 +1,16 @@
+.templates {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #ebebeb;
+    padding:40px;
+}
+
+.templates-block {
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    min-width: 370px;
+    max-width: 370px;
+}

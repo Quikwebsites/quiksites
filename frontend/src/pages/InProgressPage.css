@@ -1,0 +1,8 @@
+.progress-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-image: url('../assets/images/GenericBackground.png');
+    padding:5px;
+    max-height: 100vh;
+}

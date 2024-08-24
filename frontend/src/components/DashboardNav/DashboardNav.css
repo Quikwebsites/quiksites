@@ -1,0 +1,39 @@
+.dash-nav {
+    background-color:black;
+    color: #fff; 
+    padding-bottom: 0px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-Bottom: 5px solid beige;
+    margin:0;
+}
+
+.logo {
+    user-select: none;
+    cursor: pointer;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    width: 130px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.logout-button {
+    background-color: transparent;
+    color: #fff;
+    font-size: 18px;
+    list-style: none;
+    padding-right: 20px;
+    border: none;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    text-decoration: underline;
+}

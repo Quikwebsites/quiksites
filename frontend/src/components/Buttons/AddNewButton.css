@@ -1,0 +1,15 @@
+.add-new{
+    background-color: #C3FF61;
+    color:gray;
+    padding:15px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius:3px;
+    font-size:large;
+    transition: transform 0.3s ease;
+    cursor:pointer;
+}
+
+.add-new:hover{
+    transform: scale(1.05); /* Grow by 10% */
+}

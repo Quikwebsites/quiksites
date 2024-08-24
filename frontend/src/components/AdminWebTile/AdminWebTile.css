@@ -1,0 +1,45 @@
+.admin-user-tile {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40px;
+    border-bottom: 1px solid gray;
+    border-radius: 2px;
+}
+
+.admin-user-tile:hover {
+    background-color: rgb(250, 250, 250); /* Changes background on hover */
+}
+
+.admin-user-tile input {
+    background-color: rgb(250, 250, 250); /* Changes background on hover */
+}
+
+.admin-user-tile button {
+    margin: 0;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: rgb(194, 255, 97);
+    transition: transform 0.3s ease;
+}
+
+.url-update {
+    display: flex;
+    align-items: center;
+}
+
+.url-update input{
+    border: none;
+    margin: 0;
+    height: 30px;
+    width: 225px;
+    font-size: 16px;
+    outline: none;
+    color: rgb(70, 70, 70);
+}
+
+.admin-user-tile button:hover{
+    transform: scale(1.05); /* Grow by 10% */
+}

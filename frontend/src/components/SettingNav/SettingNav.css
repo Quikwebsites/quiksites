@@ -1,0 +1,76 @@
+.setting_nav{
+    margin:0;
+    padding:0;
+}
+
+.setting_nav > ul{
+    display:flex;
+    list-style:none;
+    margin:0;
+    padding:0;
+    position:relative;
+
+}
+.setting_nav > ul > li{
+
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.setting_nav > ul > .underline{
+    position: absolute;
+    height:5%;
+    top:5px;
+    left:0px;
+    padding:0px;
+    margin:0px;
+    background-color:rgb(40, 143, 0);
+    width:100px;
+    transition: all .5s ease 0s;
+}
+
+.setting_nav > ul > li:nth-child(1){
+    width:80px 
+}
+.setting_nav > ul > li:nth-child(2){
+    width:60px;
+}
+.setting_nav > ul > li:nth-child(3){
+    width:80px; 
+}
+.setting_nav > ul > li:nth-child(4){
+    width:80px;
+}
+
+.setting_nav > ul > li:nth-child(1).active~.underline{
+    left:0px;
+    width:37px;
+}
+.setting_nav > ul > li:nth-child(2).active~.underline{
+    left:80px;
+    width:47px;
+}
+.setting_nav > ul > li:nth-child(3).active~.underline{
+    left:140px;
+    width:57px;
+}
+.setting_nav > ul > li:nth-child(4).active~.underline{
+    left:220px;
+    width:47px;
+}
+
+.setting_nav > ul > li:nth-child(1):hover~.underline{
+    left:0px;
+    width:55px;
+}
+.setting_nav > ul > li:nth-child(2):hover~.underline{
+    left: 80px;
+    width:37px;
+}
+.setting_nav > ul > li:nth-child(3):hover~.underline{
+    left: 140px;
+    width:57px;
+}
+.setting_nav > ul > li:nth-child(4):hover~.underline{
+    left:220px;
+    width:47px;
+}

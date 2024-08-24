@@ -1,0 +1,56 @@
+.gen-set h1 {
+	margin-bottom: 40px;
+}
+
+.gen-set label {
+	display: block;
+	text-align: left;
+	margin-bottom: 3px;
+	font-size: 20px;
+}
+
+.gen-set input {
+	width: 500px;
+	height: 40px;
+	border-radius: 2px;
+	margin-bottom: 20px;
+	border: none;
+	background-color: #f0f0f0;
+	font-size: 16px;
+}
+
+.gen-set textarea {
+	width: 500px;
+	height: 120px;
+	border-radius: 2px;
+	margin-bottom: 20px;
+	border: none;
+	background-color: #f0f0f0;
+	font-size: 16px;
+	resize: none;
+}
+
+@media screen and (max-width: 550px) {
+  .form-wrapper,
+  input,
+  textarea {
+    width: 400px; /* Change width when window is scaled down */
+  }
+}
+
+.gen-set button {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 40px;
+    margin-top: 20px;
+    background-color: #C3FF61;
+    color: gray;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Placeholder h2 - will replace with proper item later */
+.gen-set h2 {
+	padding-top: 30px;
+}

@@ -1,0 +1,15 @@
+.float-block{
+        background-color:white;
+        width:500px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius:5px;
+        padding: 8px;
+        padding-bottom: 2px;
+        margin: auto;
+        position:absolute;
+        z-index:1;
+        left:0;
+        right:0;
+        top:30%;   
+        text-align: center;
+}

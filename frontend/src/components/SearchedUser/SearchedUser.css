@@ -1,0 +1,18 @@
+.searched-user > button {
+    font-size: 16px;
+    font-family: 'qsPlainText', sans-serif;
+    font-weight: bold;
+    height: 40px;
+    width: 20%;
+    margin-left: 15px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(194, 255, 97);
+    color: rgb(128, 128, 128);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.searched-user > button:hover{
+    transform: scale(1.05); /* Grow by 10% */
+}

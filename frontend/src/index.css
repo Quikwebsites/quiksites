@@ -1,0 +1,142 @@
+@font-face {
+  font-family: "qsPlainText";
+  src: url('assets/fonts/HelveticaNeue.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #ebebeb;
+  padding:5px;
+}
+
+.clear-section {
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding:0px;
+}
+
+.grid-section{
+  display:grid;
+  grid-template-rows:180px auto auto;
+  grid-auto-columns:100%;
+  grid-template-areas:
+  "top-third"
+  "middle-third"
+  "bottom-third";
+  margin:0px;
+}
+
+.split-section {
+  background-color: #f4ffde;
+  text-align: center;
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 100px;  
+  padding-bottom: 100px;
+}
+
+.split-section-graphic {
+  /*background-color: #f4ffde;*/
+  background-image: url('assets/images/IntroBackground.png');
+  background-size: cover;
+  text-align: center;
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 100px;  
+  padding-bottom: 100px;
+}
+
+.image-section {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  justify-content: space-evenly;
+
+  background-color: rgb(128, 128, 128);
+  max-height: 1200px;
+  overflow: hidden;
+}
+
+.image-section-container {
+  overflow: scroll;
+  max-height: 500px;
+}
+
+.image-section::-webkit-scrollbar {
+  display: none;
+}
+
+.block {
+  padding-top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+.section .block {
+  min-width: 370px;
+  max-width: 370px;
+}
+
+.split-section .block {
+  min-width: 100px;
+  max-width: 600px;
+}
+
+.split-section-graphic .block {
+  min-width: 100px;
+  max-width: 600px;
+}
+
+.image-section .block {
+  min-width: 30px;
+  max-width: 300px;
+}
+
+.padded-b{
+  padding-bottom:40px;
+}
+
+.subpage{
+  padding:60px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.subpage form div input{
+  width:100%;
+  
+}
+
+.subpage form div textarea{
+  width:100%;
+  transition: all .7s ease-in-out
+}
+
+.subpage form div textarea:focus{
+  height:400px;
+}
+
+
+

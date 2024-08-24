@@ -1,0 +1,40 @@
+.del-conf > p{
+    color:rgb(189, 4, 4);
+}
+
+.confirm-button {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color:rgb(189, 4, 4);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    color:lightgray;
+}
+.confirm-button:hover {
+    background-color:rgb(206, 6, 6);
+}
+
+.return-button {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 40px;
+    margin-top: 20px;
+    background-color:rgb(194, 255, 97);
+    color: gray;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.return-button:hover{
+    transform: scale(1.05); /* Grow by 10% */
+}
+
+.del-conf {
+    
+}

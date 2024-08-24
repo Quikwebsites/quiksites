@@ -1,0 +1,91 @@
+.change-plan-tile-unselected {
+    text-align: center;
+    border-radius: 30px;
+    color: rgb(128, 128, 128);
+    background: white;
+    font-family: 'qsPlainText', sans-serif;
+    width: 300px;
+    min-height: 300px;
+    max-height: 540px;
+    display: inline-block;
+    padding: 30px;
+    margin-top:20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom:10px;
+}
+
+.change-plan-tile-unselected button {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 40px;
+    margin-top: 20px;
+    background-color: #C3FF61;
+    color: gray;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.change-plan-tile-unselected button:hover {
+    transform: scale(1.05); /* Grow by 10% */
+}
+
+.change-plan-tile-unselected h2 {
+    font-family: 'qsPlainText', sans-serif;
+    margin-bottom: 10px;
+}
+
+.change-plan-tile-unselected p {
+    font-family: 'qsPlainText', sans-serif;
+}
+
+.change-plan-tile-unselected li {
+    font-family: 'qsPlainText', sans-serif;
+}
+
+
+
+
+
+
+.change-plan-tile-selected {
+    text-align: center;
+    border-radius: 30px;
+    color: rgb(128, 128, 128);
+    background-color: white;
+    font-family: 'qsPlainText', sans-serif;
+    width: 300px;
+    min-height: 300px;
+    max-height: 540px;
+    display: inline-block;
+    padding: 30px;
+    margin-top:20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom:10px;
+    border: 5px solid #C3FF61;
+}
+
+.change-plan-tile-selected button {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 40px;
+    margin-top: 20px;
+    background-color: #C3FF61;
+    color: gray;
+    border: none;
+    border-radius: 3px;
+}
+
+.change-plan-tile-selected h2 {
+    font-family: 'qsPlainText', sans-serif;
+    margin-bottom: 10px;
+}
+
+.change-plan-tile-selected p {
+    font-family: 'qsPlainText', sans-serif;
+}
+
+.change-plan-tile-selected li {
+    font-family: 'qsPlainText', sans-serif;
+}

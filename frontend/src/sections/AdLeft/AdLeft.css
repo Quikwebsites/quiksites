@@ -1,0 +1,8 @@
+.ad-left {
+    background-image: url('../../assets/images/PlansBackground.png');
+}
+
+.ad-left > .split-section{
+    background: transparent;
+}
+

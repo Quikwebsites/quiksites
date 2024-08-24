@@ -1,0 +1,51 @@
+/* SearchItem.css */
+
+.search-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px 0;
+    background-color: #f9f9f9;
+}
+
+.search-item button {
+    all: unset;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'qsPlainText', sans-serif;
+    font-weight: bold;
+    height: 35px;
+    width: 15%;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(194, 255, 97);
+    color: rgb(128, 128, 128);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+
+.search-item button:hover{
+    transform: scale(1.05); /* Grow by 10% */
+}
+
+.search-item .domain {
+    flex: 2;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.search-item .price {
+    padding-right: 30px;
+}
+
+.search-item .renewal {
+    padding-right: 30px;
+}

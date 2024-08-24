@@ -1,0 +1,21 @@
+
+.privacy-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.privacy-section button {
+    margin: 10px;
+    padding: 0;
+    border: none;
+    color: #011222;
+    background: transparent;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.privacy-section  button:hover{
+    text-decoration: underline;
+}

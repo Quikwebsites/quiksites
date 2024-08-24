@@ -1,0 +1,51 @@
+.page-settings{
+    width:100%;
+    min-height: 100vh;
+    height: 100%;
+    background-image: url('../../assets/images/GenericBackground.png');
+    margin: 0;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.page-settings .pricing-section {
+    background-image: none;
+    background-color: none;
+}
+
+.plans-header {
+    display: flex;
+    margin: 0;
+    align-items: center;
+    text-align: center;
+}
+
+.page-settings .setting_nav {
+    padding-top: 20px;
+}
+
+.plans-header h2 {
+    margin: 0;
+}
+
+.plans-header button {
+    margin: 0px;
+    margin-left: 20px;
+    align-items: center;
+    border: none;
+    background-color: #c3ff61;
+    padding: 15px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.plans-header button:hover{
+    transform: scale(1.05); /* Grow by 10% */
+}
+
+.user-data h1 {
+    margin-left: 30px;
+    color: gray;
+}

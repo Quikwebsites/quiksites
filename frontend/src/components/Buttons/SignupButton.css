@@ -1,0 +1,14 @@
+.signup{
+    background-color:rgb(194, 255, 97);
+    color:rgb(1, 18, 35);
+    font-family: 'qsPlainText', sans-serif;
+    padding:15px;
+    padding-top:12px;
+    padding-bottom:12px;
+    border-radius:3px;
+    transition: transform 0.3s ease;
+}
+.signup:hover{
+    transform: scale(1.05); /* Grow by 10% */
+    cursor:pointer;
+}

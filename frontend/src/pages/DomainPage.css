@@ -1,0 +1,7 @@
+.domain-page {
+    display: flex;
+    min-height: 100vh;
+    background-image: url('../assets/images/GenericBackground.png');
+    background-size: cover;
+    justify-content: center;
+}

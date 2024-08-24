@@ -1,0 +1,110 @@
+.login-redirect {
+    color:white;
+    font-family: 'qsPlainText', sans-serif;
+    background-color: rgb(194, 255, 97);
+    transition: transform 0.3s ease;
+}
+
+.login-redirect:hover{
+    transform: scale(1.05); /* Grow by 10% */
+}
+
+.light {
+    text-align: center;
+    border-radius: 30px;
+    color: rgb(128, 128, 128);
+    background: white;
+    font-family: 'qsPlainText', sans-serif;
+    width: 300px;
+    min-height: 300px;
+    max-height: 540px;
+    display: inline-block;
+    padding: 30px;
+    margin-top:20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom:10px;
+}
+
+.light button {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 40px;
+    margin-top: 20px;
+    background-color: #C3FF61;
+    color: gray;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.light button:hover {
+    transform: scale(1.05); /* Grow by 10% */
+}
+
+.light h2 {
+    font-family: 'qsPlainText', sans-serif;
+    margin-bottom: 10px;
+}
+
+.light p {
+    font-family: 'qsPlainText', sans-serif;
+}
+
+.light li {
+    font-family: 'qsPlainText', sans-serif;
+}
+
+.dark {
+    text-align: center;
+    border-radius: 30px;
+    color:white;
+    background: rgb(1, 18, 35);
+    font-family: 'qsPlainText', sans-serif;
+    width: 300px;
+    min-height: 300px;
+    max-height: 540px;
+    display: inline-block;
+    padding: 30px; 
+    margin-top:20px;
+    margin-bottom:10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dark button {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 40px;
+    margin-top: 20px;
+    background-color: #C3FF61;
+    color: gray;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.dark button:hover {
+    transform: scale(1.05); /* Grow by 10% */
+}
+
+.dark h2 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.dark p {
+    color: white;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+    list-style-image: url('../../../public/check.svg');
+    font-family: 'qsPlainText', sans-serif;
+}
+
+.price-dropdown {
+    margin-bottom: 10px;
+    border-color: gray;
+}

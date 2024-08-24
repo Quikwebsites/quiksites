@@ -1,0 +1,13 @@
+.request-tile {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 1px solid gray;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.request-tile:hover {
+    background-color: rgb(230, 230, 230); /* Changes background on hover */
+}

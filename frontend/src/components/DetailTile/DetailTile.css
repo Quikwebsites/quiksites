@@ -1,0 +1,80 @@
+.detail-tile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding:30px;
+    margin-top:40px;
+    margin-bottom:100%;
+    margin-left:20px;
+    margin-right:20px;
+    border-radius:10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width:640px;
+    background-color:white;
+}
+
+
+.detail-tile h1, h2, label, input, textarea, button {
+	margin-bottom: 40px;
+  font-family: 'qsPlainText', sans-serif;
+  color: rgb(128, 128, 128);
+}
+
+.detail-tile label {
+	display: block;
+	text-align: left;
+	margin-bottom: 3px;
+	font-size: 20px;
+}
+
+.detail-tile input {
+	width: 500px;
+	height: 40px;
+	border-radius: 2px;
+	margin-bottom: 20px;
+	border: none;
+	background-color: #f0f0f0;
+	font-size: 16px;
+}
+
+.detail-tile textarea {
+	width: 500px;
+	height: 120px;
+	border-radius: 2px;
+	margin-bottom: 20px;
+	border: none;
+	background-color: #f0f0f0;
+	font-size: 16px;
+}
+
+@media screen and (max-width: 550px) {
+  .form-wrapper,
+  input,
+  textarea {
+    width: 400px; /* Change width when window is scaled down */
+  }
+}
+
+.detail-tile button {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 40px;
+    margin-top: 20px;
+    background-color: #C3FF61;
+    color: gray;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.detail-tile button:hover {
+    transform: scale(1.05); /* Grow by 10% */
+}
+
+/* Placeholder h2 - will replace with proper item later */
+.detail-tile h2 {
+	padding-top: 30px;
+}

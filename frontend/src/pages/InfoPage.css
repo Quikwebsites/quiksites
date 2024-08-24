@@ -1,0 +1,8 @@
+.info-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-image: url('../assets/images/GenericBackground.png');
+    max-height: 100vh;
+    padding:5px;
+}

@@ -1,0 +1,44 @@
+.light-textbanner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(66, 66, 66);
+    font-weight: bold;
+}
+
+.dark-textbanner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold; 
+}
+
+.dark-textbanner h1 {
+    font-size:60px;
+    color: white;
+    font-family: 'qsPlainText', sans-serif;
+}
+.light-textbanner h1 {
+    font-size:60px;
+    color: rgb(128, 128, 128);
+    font-family: 'qsPlainText', sans-serif;
+}
+
+.light-textbanner .highlight {
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0);
+    color:grey;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 500px;
+    margin: 0;
+    padding-bottom: 60px;
+}

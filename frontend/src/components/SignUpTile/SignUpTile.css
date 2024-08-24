@@ -1,0 +1,35 @@
+.sign-up-tile {
+    padding:30px;
+    margin-top:40px;
+    margin-bottom:100%;
+    margin-left:20px;
+    margin-right:20px;
+    border-radius:10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width:640px;
+    background-color:white;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-button {
+    font-size: 16px;
+    font-family: 'qsPlainText', sans-serif;
+    font-weight: bold;
+    padding: 15px 80px;
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(194, 255, 97);
+    color: rgb(128, 128, 128);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.signup-button:hover{
+    transform: scale(1.05); /* Grow by 10% */
+}
+

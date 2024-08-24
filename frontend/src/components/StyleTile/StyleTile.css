@@ -1,0 +1,79 @@
+.style-tile {
+    margin-top:80px;
+    margin-left:80px;
+    margin-right:80px;
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+    align-items:center;
+    text-align:center;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color:white;
+    overflow:hidden;
+}
+.style-tile .header{
+    width:100%;
+    height:30px;
+    border-top:0px;
+    border-bottom:1px;
+    border-left:0px;
+    border-right:0px;
+    border-color:grey;
+    border-style:solid;
+}
+
+.style-tile a{
+    height:400px;
+    overflow:scroll;
+}
+
+.style-tile a img {
+    width: 100%;
+}
+
+.style-tile .footer{
+    width:100%;
+    padding:20px;
+    border-top:1px;
+    border-bottom:0px;
+    border-left:0px;
+    border-right:0px;
+    border-color:grey;
+    border-style:solid;
+}
+
+.style-tile .footer h3{
+    margin:5px;
+    color: grey;
+    font-family: 'qsPlainText', sans-serif;
+    font-weight:bold;
+}
+
+.style-tile .footer p{
+    margin:5px;
+    color:grey;
+    font-family: 'qsPlainText', sans-serif;
+    font-size:15px;
+}
+
+.style-tile .footer button {
+    margin-top: 20px;
+    height: 40px;
+    padding-top:0px;
+    padding-bottom:0px;
+    border-radius:5px;
+    border: none;
+    font-size: 16px;
+    color:rgb(128, 128, 128);
+    font-family: 'qsPlainText', sans-serif;
+    font-weight:bold;
+    background-color:rgb(194, 255, 97);
+    width:90%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.style-tile .footer button:hover{
+    transform: scale(1.02); /* Grow by 10% */
+}

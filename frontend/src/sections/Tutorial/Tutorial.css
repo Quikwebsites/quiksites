@@ -1,0 +1,16 @@
+.how-it-works-section {
+    /*background-color: #ebebeb;*/
+    background-image: url('../../assets/images/TutorialBackground.png');
+    background-size: cover;
+    justify-content: center;
+    padding: 40px;
+    text-align: center;
+}
+
+.how-it-works-section .grid-section .top{
+    grid-row:1 span 2;
+    background-color:red;
+}
+.how-it-works-section .grid-section .bottom{
+    grid-row:2;
+}
